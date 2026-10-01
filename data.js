@@ -11,7 +11,8 @@ const U={
   scared:'https://samir210-az.github.io/cbt/',
   cbt1:'https://samir210-az.github.io/Cbt1/',
   ai:'https://ai-test-az.vercel.app',
-  ixtisas:'https://ixtisas.vercel.app'
+  ixtisas:'https://ixtisas.vercel.app',
+  iq:'https://test-iq-rosy.vercel.app/'
 };
 
 const QRUPLAR=[
@@ -117,6 +118,15 @@ const TESTLER=[
  netice:['Qeyri-şifahi IQ balı, orta 100','Diqqət və yaddaş üzrə ayrıca bal'],
  mehdud:'Lisenziyalı materialdır. Qeyri-şifahi IQ şifahi və akademik bacarıqları əhatə etmir, buna görə WISC-V və ya digər qiymətləndirmələrlə tamamlanmalıdır.',
  linkler:[{t:'Testi aç',u:U.qs+'#leiter3'}]},
+
+{id:'tefekkur',ad:'AN Təfəkkür tapşırıqları',alt:'Mərkəzin özünün yazdığı şəkil və söz əsaslı təfəkkür tapşırıqları (tədqiqat versiyası)',qrup:'zeka',tip:'Tədqiqat aləti (normalaşdırılmayıb)',
+ yas:'3–15 yaş, üç forma: A 3–6, B 7–10, C 11–15',kim:'Psixoloq uşaqla birlikdə aparır, nəticəni PIN ilə giriş etmiş psixoloq görür',muddet:'Hələ ölçülməyib. Forma A 40, B 60, C 72 maddədir',
+ ne:'Uşağın şəkil və söz materialı üzərində məntiqi təfəkkürünü yaşa uyğun pillələrlə yoxlayır.',
+ niye:'Mərkəz üçün sıfırdan yazılmış alətdir. Məqsəd uşaq nümunəsi toplayıb sualların real çətinliyini görmək və gələcəkdə normalaşdırma üçün baza yaratmaqdır.',
+ terkib:['Şəkil bloku: şəkil cədvəli, ardıcıllıq, fərqliyi tap, analogiya','Şifahi blok: söz analogiyası, fərqli sözü tap, oxşarlıq, sözün mənası','Hər formanın öz sualları, çətinlik pillələri və dayandırma qaydası var','Azərbaycan və rus dilində'],
+ netice:['Düzgün cavabların sayı və faizi tip üzrə göstərilir','Şəkil blokuna görə ilkin söz səviyyəsi verilir: aşağı, orta altı, orta, orta üstü, yüksək','IQ balı verilmir'],
+ mehdud:'Standartlaşdırılmış IQ testi deyil, norma toplanmayıb. Nəticə klinik qərar üçün əsas ola bilməz. Rəsmi ölçmə üçün WISC-V və ya Leiter-3 kimi lisenziyalı alətlərdən istifadə edin.',
+ linkler:[{t:'Aləti aç',u:U.iq}]},
 
 /* ---------- Adaptiv ---------- */
 {id:'vineland-3',ad:'Vineland-3',alt:'Vineland adaptiv davranış şkalası, üçüncü nəşr',qrup:'adaptiv',tip:'Qiymətləndirmə (müsahibə və anket)',
