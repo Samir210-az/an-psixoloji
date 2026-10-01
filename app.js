@@ -31,6 +31,12 @@ function card(x,yol){
   ]);
 }
 
+function row(x,yol){
+  return el('a',{class:'row',href:'#/'+yol+'/'+x.id},[
+    el('span',{class:'rn'},[el('b',{text:x.ad}),el('small',{text:x.alt})]),
+    el('span',{class:'tag t',text:x.tip}),el('span',{class:'go','aria-hidden':'true',text:'→'})
+  ]);
+}
 function renderTabs(){
   const t=$('tabs');t.textContent='';
   for(const k in BOL){
@@ -65,7 +71,8 @@ function renderList(){
     QRUPLAR.forEach(g=>{
       const arr=items.filter(x=>x.qrup===g.id);if(!arr.length)return;
       box.appendChild(el('h2',{class:'grp',text:g.ad}));
-      box.appendChild(el('div',{class:'grid'},arr.map(x=>card(x,b.yol))));
+      if(state.qrup!=='hamisi')box.appendChild(el('div',{class:'rows'},arr.map(x=>row(x,b.yol))));
+      else box.appendChild(el('div',{class:'grid'},arr.map(x=>card(x,b.yol))));
     });
   }else box.appendChild(el('div',{class:'grid'},items.map(x=>card(x,b.yol))));
 }

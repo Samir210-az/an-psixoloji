@@ -70,3 +70,16 @@ a{color:var(--accent)}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.card{transition:none}.card:hover{transform:none}}
 @media print{.top,.tabs,.chips,.acts,.foot,.back,.rel{display:none}body{background:#fff}.sec,.fact{break-inside:avoid}}
 @media (max-width:640px){.top{position:static}}
+
+.rows{display:flex;flex-direction:column;gap:8px}
+.row{display:flex;align-items:center;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;text-decoration:none;color:inherit}
+.row:hover{border-color:var(--gold);box-shadow:0 4px 14px rgba(80,30,10,.08)}
+.rn{flex:1;min-width:0}
+.rn b{display:block;font:700 17px/1.2 "Playfair Display",Georgia,serif;color:var(--accent)}
+.rn small{display:block;color:var(--muted);font-size:13px}
+.go{color:var(--accent);font-weight:700}
+@media (max-width:640px){
+  .chips{flex-wrap:nowrap;overflow-x:auto;padding-bottom:6px;margin-right:-16px;padding-right:16px}
+  .chip{white-space:nowrap;flex:none}
+  .row .tag{display:none}
+}
