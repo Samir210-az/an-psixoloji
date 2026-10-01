@@ -17,7 +17,7 @@ const U={
 const QRUPLAR=[
   {id:'autizm',ad:'Autizm skrininqi və diaqnostikası'},
   {id:'inkishaf',ad:'İnkişaf və erkən müdaxilə'},
-  {id:'zeka',ad:'Zəka və koqnitiv qiymətləndirmə'},
+  {id:'zeka',ad:'Zəka (IQ) və koqnitiv qiymətləndirmə'},
   {id:'adaptiv',ad:'Adaptiv, sensor və funksional'},
   {id:'aba',ad:'ABA və davranış'},
   {id:'emosional',ad:'Emosional vəziyyət və CBT'},
@@ -100,7 +100,7 @@ const TESTLER=[
  linkler:[{t:'Aləti aç',u:U.mudaxile}]},
 
 /* ---------- Zəka ---------- */
-{id:'wisc-v',ad:'WISC-V',alt:'Wechsler Uşaq Zəka Şkalası, beşinci nəşr',qrup:'zeka',tip:'Diaqnostik (IQ)',
+{id:'wisc-v',ad:'WISC-V',alt:'Wechsler Uşaq Zəka (IQ) Şkalası, beşinci nəşr',qrup:'zeka',tip:'Diaqnostik (IQ)',
  yas:'6–16 yaş 11 ay',kim:'Lisenziyalı psixoloq',muddet:'Təxminən 60–80 dəqiqə',
  ne:'Uşağın ümumi zehni qabiliyyətini (IQ) və onun hansı sahələrdən ibarət olduğunu ölçür.',
  niye:'Öyrənmə çətinliyi, zehni gerilik, istedad və ya diqqət problemi şübhəsi olanda uşağın güclü və zəif tərəflərini müəyyənləşdirmək üçün istifadə olunur.',
@@ -109,7 +109,7 @@ const TESTLER=[
  mehdud:'Yalnız lisenziyalı psixoloq tətbiq edə bilər. Bir test nəticəsi uşağın bütün imkanlarını göstərmir, nitqi çox məhdud və ya qeyri-şifahi uşaqlarda nəticə təhrif oluna bilər.',
  linkler:[{t:'Testi aç',u:U.qs+'#wiscv'}]},
 
-{id:'leiter-3',ad:'Leiter-3',alt:'Leiter beynəlxalq performans şkalası, üçüncü nəşr',qrup:'zeka',tip:'Diaqnostik (IQ)',
+{id:'leiter-3',ad:'Leiter-3',alt:'Leiter beynəlxalq performans şkalası (qeyri-şifahi zəka, IQ), üçüncü nəşr',qrup:'zeka',tip:'Diaqnostik (IQ)',
  yas:'3–75 yaş',kim:'Lisenziyalı psixoloq',muddet:'Təxminən 30–45 dəqiqə',
  ne:'Nitqdən asılı olmayan qeyri-şifahi zəkanı və diqqət, yaddaş funksiyalarını ölçür.',
  niye:'Nitqi inkişaf etməyən, autizmli, eşitmə çətinliyi olan və ya Azərbaycan dilini bilməyən uşaqlarda şifahi testlər imkan vermir. Leiter-3 təlimatı jestlə verilir və cavab verilmək üçün danışmaq tələb olunmur.',
@@ -183,13 +183,13 @@ const TESTLER=[
  mehdud:'FBA hazır test deyil, proses və üsullar toplusudur. Düzgün aparılması üçün təlim keçmiş mütəxəssis və kifayət qədər müşahidə vaxtı lazımdır.',
  linkler:[{t:'Qiymətləndirməni aç',u:U.aba+'tools/fba.html'}]},
 
-{id:'peak',ad:'PEAK',alt:'Qabaqcıl biliyin ortaya çıxmasına dəstək proqramı',qrup:'aba',tip:'Qiymətləndirmə və proqram',
+{id:'peak',ad:'PEAK',alt:'Əşyalar arasında əlaqə qurma bacarıqlarının qiymətləndirilməsi və öyrədilməsi (zəka ilə əlaqəli, IQ testi deyil)',qrup:'aba',tip:'Qiymətləndirmə və proqram',
  yas:'Uşaqlardan böyüklərə qədər',kim:'ABA mütəxəssisi',muddet:'Modula görə dəyişir',
  ne:'Dil və öyrənmə bacarıqlarını əlaqələr çərçivəsi nəzəriyyəsinə əsaslanaraq qiymətləndirir.',
  niye:'Uşağın sadə təqlid etməkdən mücərrəd və fikri əlaqələr qurmağa keçməsinə kömək edən hədəfləri seçmək üçün istifadə olunur.',
  terkib:['Dörd modul: birbaşa təlim, ümumiləşdirmə, ekvivalentlik, transformasiya','Hər modulda bacarıqlar sırası və qiymətləndirmə'],
  netice:['Modullar üzrə bal və növbəti hədəflərin siyahısı'],
- mehdud:'Alətin açılışı bəzi mənbələrdə fərqli yazılır, rəsmi ad Promoting the Emergence of Advanced Knowledge-dır. Klinik təcrübədə VB-MAPP və ABLLS-R qədər geniş yayılmayıb.',
+ mehdud:'IQ testi deyil və IQ balı vermir; ölçdüyü əlaqə qurma bacarıqları zəka ilə əlaqəli sayılır. Alətin açılışı bəzi mənbələrdə fərqli yazılır, rəsmi ad Promoting the Emergence of Advanced Knowledge-dır. Klinik təcrübədə VB-MAPP və ABLLS-R qədər geniş yayılmayıb.',
  linkler:[{t:'Testi aç',u:U.aba+'tools/peak.html'}]},
 
 /* ---------- Emosional ---------- */
