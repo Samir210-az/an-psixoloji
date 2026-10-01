@@ -202,6 +202,15 @@ const TESTLER=[
  mehdud:'Skrininq və istiqamət alətidir, diaqnoz qoymur. Faiz hədləri mərkəzin tətbiq etdiyi şərh qaydasıdır. Hesablama düyməsi lisenziya tələb edir.',
  linkler:[{t:'Aləti aç',u:U.cbt1}]},
 
+{id:'neurocbt',ad:'NeuroCBT Klinik',alt:'Bek narahatlıq (BAI) və depressiya (BDI) siyahıları',qrup:'emosional',tip:'Klinik sistem',
+ yas:'Səhifədə göstərilməyib, bu siyahılar adətən yeniyetmə və böyüklər üçündür',kim:'Lisenziyalı mütəxəssis: klinik psixoloq, psixiatr, nevroloq, psixoterapevt, nəzarət altında sosial işçi',muddet:'Hər test 5–10 dəqiqə',
+ ne:'Narahatlığın və depressiyanın şiddətini Bek siyahıları ilə ölçür və nəticəni klinik hesabat kimi hazırlayır.',
+ niye:'Mütəxəssis pasiyenti sistemdə qeydə alır, testi tətbiq edir və nəticəni yazılı hesabatla müalicə planına əlavə edir. Təkrar tətbiq müalicə zamanı dəyişikliyi göstərir.',
+ terkib:['BAI (Bek narahatlıq siyahısı): təxminən 21 maddə, hər biri 0–3 şkalası ilə, son bir həftə üzrə, ümumi bal 0–63 (0–7 minimal, 8–15 yüngül, 16–25 orta, 26–63 ağır)','BDI (Bek depressiya siyahısı): 21 maddə, hər biri 0–3 şkalası ilə, ümumi bal 0–63','Sistem hissələri: mütəxəssis girişi və qeydiyyatı, administrator paneli, pasiyent idarəetməsi, test seçimi və tətbiqi, nəticə təhlili'],
+ netice:['Üç addım: təlimat, testin keçirilməsi, nəticənin təhlili','Hesabat HTML, Word formatında yüklənə və ya kopyalana bilər'],
+ mehdud:'Səhifədə özündə yazılıb ki, BAI və BDI diaqnostik alət deyil, simptomların şiddətini ölçür. Bal intervalları orijinal siyahıların beynəlxalq şərhidir, sistemdə göstərilən hədlər fərqlənə bilər.',
+ linkler:[{t:'Aləti aç',u:'https://samir210-az.github.io/saas/'}]},
+
 {id:'phq-9',ad:'PHQ-9',alt:'Pasiyent sağlamlıq anketi, depressiya',qrup:'emosional',tip:'Anket',
  yas:'Yeniyetmə və böyüklər',kim:'Özünü qiymətləndirmə, psixoloq və ya həkim şərh edir',muddet:'2–5 dəqiqə',
  ne:'Son iki həftədəki depressiya əlamətlərinin sayını və şiddətini ölçür.',
