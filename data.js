@@ -51,7 +51,7 @@ const TESTLER=[
  terkib:['Modullar yaşa və dil səviyyəsinə görə seçilir: Toddler modulu və 1–4-cü modullar','Hər modulda oyuncaqlar və situasiyalar vasitəsilə aparılan strukturlaşdırılmış tapşırıqlar','Müşahidələr maddələr üzrə 0–3 balla kodlaşdırılır'],
  netice:['Alqoritmə görə ballar cəmlənir və «autizm», «autizm spektri» və ya «spektrdən kənar» təsnifatı alınır','Müqayisəli şiddət balı (CSS) əlamətlərin dərəcəsini yaşa görə müqayisə edir'],
  mehdud:'Lisenziyalı materialdır, yalnız təlim keçmiş mütəxəssis tətbiq edə bilər. Nəticə tək başına diaqnoz qoymur, valideyn müsahibəsi və inkişaf tarixçəsi ilə birlikdə şərh olunur.',
- linkler:[{t:'Qiymətləndirmə sistemini aç',u:U.qs}]},
+ linkler:[{t:'Testi aç',u:U.qs+'#ados2'}]},
 
 {id:'adi-r',ad:'ADI-R',alt:'Autizm Diaqnostik Müsahibəsi, yenilənmiş',qrup:'autizm',tip:'Müsahibə',
  yas:'Əqli yaşı ən azı 2 il olan uşaq və böyüklər',kim:'Təlim keçmiş klinik mütəxəssis, cavab verən isə uşağı yaxşı tanıyan valideyn',muddet:'Təxminən 1,5–2,5 saat',
@@ -60,7 +60,7 @@ const TESTLER=[
  terkib:['93 maddəlik müsahibə','Üç sahə: qarşılıqlı sosial əlaqə, ünsiyyət və dil, məhdud və təkrarlanan davranışlar','Əlamətlərin 36 aya qədər başlayıb-başlamadığını soruşan hissə'],
  netice:['Alqoritm sahələr üzrə balları hesablayır və kəsmə həddi ilə müqayisə edir','Nəticə autizm diaqnostik meyarlarına uyğunluğu göstərir'],
  mehdud:'Lisenziyalı materialdır. Valideynin xatırlamasına əsaslandığı üçün xatirə təhrifi ola bilər, buna görə ADOS-2 və klinik müşahidə ilə birlikdə istifadə edilir.',
- linkler:[{t:'Qiymətləndirmə sistemini aç',u:U.qs}]},
+ linkler:[{t:'Testi aç',u:U.qs+'#adir'}]},
 
 /* ---------- İnkişaf ---------- */
 {id:'denver-ii',ad:'Denver II',alt:'Denver İnkişaf Skrininq Testi',qrup:'inkishaf',tip:'Skrininq',
@@ -81,6 +81,15 @@ const TESTLER=[
  mehdud:'Standartlaşdırılmış test deyil. Aləti açıq şəkildə reabilitasiya mərkəzinə istiqamətləndirmə məqsədi daşıyır və diaqnostik alətləri əvəz etmir.',
  linkler:[{t:'Aləti aç',u:U.inkishaf}]},
 
+{id:'usaqiq',ad:'UşaqIQ',alt:'Valideyn anketi ilə inkişaf profili və fərdi ev planı',qrup:'inkishaf',tip:'Valideyn anketi',
+ yas:'1–2, 3–4, 5–6 və 7+ yaş',kim:'Valideyn',muddet:'21 sual',
+ ne:'Valideynin cavablarına əsasən uşağın nitq, motorika, idrak, sosial-emosional və özünəxidmət sahələrindəki inkişafını göstərir və evdə tətbiq olunacaq fəaliyyətlər təklif edir.',
+ niye:'Valideynə uşağının hansı sahədə güclü, hansında dəstəyə ehtiyaclı olduğunu sadə dildə göstərmək və gündəlik həyatda nə etməli olduğunu bildirmək üçün.',
+ terkib:['Yaş qrupu seçimi (1–2, 3–4, 5–6, 7+)','Hər yaş üçün ayrı suallar, 21 sualdan ibarət anket','5 inkişaf sahəsi: nitq, motorika, idrak, sosial-emosional, özünəxidmət','Hər sahə üçün evdə edilə bilən fəaliyyət təklifləri','Uşaq üçün oyun və rəngləmə bölməsi'],
+ netice:['Sahələr üzrə inkişaf profili və fərdi plan','Nəticə valideynə aydın dildə təqdim olunur'],
+ mehdud:'Adına baxmayaraq standartlaşdırılmış IQ testi deyil. Valideyn anketidir və diaqnoz qoymur, narahatlıq varsa mütəxəssisə müraciət lazımdır.',
+ linkler:[{t:'Anketi aç',u:'https://samir210-az.github.io/usaq_iq/'}]},
+
 {id:'erken-mudaxile',ad:'Erkən Müdaxilə platforması',alt:'İnkişaf skrininqi (v2) və izləmə',qrup:'inkishaf',tip:'Skrininq və izləmə',
  yas:'Xüsusi qayğıya ehtiyacı olan müxtəlif yaşlı uşaqlar',kim:'Valideyn və mütəxəssis',muddet:'Uşağa görə dəyişir',
  ne:'İnkişaf skrininqini keçirir və nəticələri zaman üzrə izləməyə imkan verir.',
@@ -98,7 +107,7 @@ const TESTLER=[
  terkib:['Ümumilikdə 15 subtest, əsas profil üçün 10-u tətbiq olunur','Beş əsas indeks: şifahi anlama, vizual-məkan, mayeli məntiq, işçi yaddaş, emal sürəti','Subtestlər arasında söz ehtiyatı, bloklarla dizayn, matris, rəqəm təkrarı, kodlaşdırma kimi tapşırıqlar'],
  netice:['Tam miqyas IQ (FSIQ) və beş indeks balı alınır, orta 100, standart kənarlaşma 15','Ballar yaş normasına görə təsnif edilir (aşağı, orta, yuxarı və s.)','İndekslər arasındakı fərq uşağın profilini göstərir'],
  mehdud:'Yalnız lisenziyalı psixoloq tətbiq edə bilər. Bir test nəticəsi uşağın bütün imkanlarını göstərmir, nitqi çox məhdud və ya qeyri-şifahi uşaqlarda nəticə təhrif oluna bilər.',
- linkler:[{t:'Qiymətləndirmə sistemini aç',u:U.qs}]},
+ linkler:[{t:'Testi aç',u:U.qs+'#wiscv'}]},
 
 {id:'leiter-3',ad:'Leiter-3',alt:'Leiter beynəlxalq performans şkalası, üçüncü nəşr',qrup:'zeka',tip:'Diaqnostik (IQ)',
  yas:'3–75 yaş',kim:'Lisenziyalı psixoloq',muddet:'Təxminən 30–45 dəqiqə',
@@ -107,7 +116,7 @@ const TESTLER=[
  terkib:['Vizuallaşdırma və məntiq bölməsi: formaları tapmaq, tamamlamaq, təsnif etmək, ardıcıllıq','Diqqət və yaddaş bölməsi: davamlı diqqət, irəli və əks yaddaş','Uşaq yaşına görə uyğun subtestlər seçilir'],
  netice:['Qeyri-şifahi IQ balı, orta 100','Diqqət və yaddaş üzrə ayrıca bal'],
  mehdud:'Lisenziyalı materialdır. Qeyri-şifahi IQ şifahi və akademik bacarıqları əhatə etmir, buna görə WISC-V və ya digər qiymətləndirmələrlə tamamlanmalıdır.',
- linkler:[{t:'Qiymətləndirmə sistemini aç',u:U.qs}]},
+ linkler:[{t:'Testi aç',u:U.qs+'#leiter3'}]},
 
 /* ---------- Adaptiv ---------- */
 {id:'vineland-3',ad:'Vineland-3',alt:'Vineland adaptiv davranış şkalası, üçüncü nəşr',qrup:'adaptiv',tip:'Qiymətləndirmə (müsahibə və anket)',
@@ -117,7 +126,7 @@ const TESTLER=[
  terkib:['Üç əsas sahə: ünsiyyət, gündəlik həyat bacarıqları, sosiallaşma','Motor bacarıqlar sahəsi kiçik yaşda tətbiq olunur','İstəyə bağlı: uyğunsuz davranış sahəsi'],
  netice:['Hər sahə və ümumi adaptiv davranış kompoziti üçün standart bal (orta 100)','Yaş ekvivalentləri və güclü, zəif tərəflərin profili'],
  mehdud:'Cavab verənin məlumatına əsaslanır, ona görə cavab verən şəxsin uşağı nə qədər yaxşı tanıması vacibdir. Lisenziyalı materialdır.',
- linkler:[{t:'Qiymətləndirmə sistemini aç',u:U.qs},{t:'ABA platforması',u:U.aba}]},
+ linkler:[{t:'Testi aç',u:U.qs+'#vineland3'},{t:'ABA platformasında',u:U.aba+'tools/vineland.html'}]},
 
 {id:'sensory-profile-2',ad:'Sensory Profile 2',alt:'Sensor profil, ikinci nəşr',qrup:'adaptiv',tip:'Anket',
  yas:'Doğuşdan 14 yaş 11 aya qədər (yaşa görə ayrı formalar)',kim:'Valideyn və ya müəllim doldurur, ergoterapevt və ya psixoloq şərh edir',muddet:'10–20 dəqiqə',
@@ -126,7 +135,7 @@ const TESTLER=[
  terkib:['Yaşa görə infant, toddler, child formaları və qısa forma','Sensor sistemlər: eşitmə, görmə, toxunma, hərəkət, bədən mövqeyi, oral','Davranış nümunələri: sensor axtarışı, sensor qaçınma, sensor həssaslıq, sensor qeydiyyatsızlıq (dörd kvadrant)'],
  netice:['Hər kvadrant və sistem üçün bal «həmyaşıdlarına nisbətən çox az»dan «çox çox»a qədər təsnif edilir'],
  mehdud:'Anket valideynin müşahidəsinə əsaslanır və diaqnoz qoymur. Nəticə ergoterapiya planının əsası ola bilər, lakin klinik müşahidə ilə təsdiqlənməlidir.',
- linkler:[{t:'Qiymətləndirmə sistemini aç',u:U.qs}]},
+ linkler:[{t:'Testi aç',u:U.qs+'#sp2'}]},
 
 {id:'ttap',ad:'TTAP',alt:'Keçid və peşə yönümlü qiymətləndirmə profili',qrup:'adaptiv',tip:'Qiymətləndirmə',
  yas:'Yeniyetmə və böyüklər (TTAP əsasən autizmli gənclər üçün işlənib)',kim:'Mütəxəssis müşahidə və müsahibə ilə',muddet:'Fərdi, bir neçə görüşə yayıla bilər',
@@ -145,7 +154,7 @@ const TESTLER=[
  terkib:['170 mərhələ, 16 sahə: tələb, adlandırma, dinləyici reaksiyası, təqlid, oyun, sosial bacarıq, oxu, yazı, riyaziyyat və s.','Üç səviyyə: 0–18, 18–30, 30–48 ay','Əngəllər qiymətləndirməsi (24 əngəl) və keçid qiymətləndirməsi'],
  netice:['Hər mərhələ 0, ½ və ya 1 balla qeyd olunur','Profil uşağın hansı səviyyədə olduğunu və hansı əngəllərin öyrənməyə mane olduğunu göstərir'],
  mehdud:'Normal inkişaf mərhələlərinə əsaslandığı üçün bütün uşaqlar üçün tam uyğun olmaya bilər. Alət özü müalicə deyil, plan üçün əsasdır.',
- linkler:[{t:'ABA platformasını aç',u:U.aba}]},
+ linkler:[{t:'Testi aç',u:U.aba+'tools/vb-mapp.html'}]},
 
 {id:'ablls-r',ad:'ABLLS-R',alt:'Əsas dil və öyrənmə bacarıqlarının qiymətləndirilməsi, yenilənmiş',qrup:'aba',tip:'Qiymətləndirmə',
  yas:'Əsasən kiçik yaşlı və inkişaf gecikməsi olan uşaqlar',kim:'ABA mütəxəssisi',muddet:'Bir neçə seans',
@@ -154,7 +163,7 @@ const TESTLER=[
  terkib:['544 bacarıq, 25 sahə: əməkdaşlıq, vizual qavrama, dil, təqlid, oyun, sosial, motor, özünəxidmət və s.','Bacarıq izləmə cədvəli (grid) və tapşırıq təhlili'],
  netice:['Bacarıqlar cədvəldə rənglənir, yeni nailiyyətlər tarix üzrə izlənir'],
  mehdud:'Standart bal vermir, norm cədvəli yoxdur. Əsas məqsəd müqayisə yox, fərdi proqram və izləmədir.',
- linkler:[{t:'ABA platformasını aç',u:U.aba}]},
+ linkler:[{t:'Testi aç',u:U.aba+'tools/ablls-r.html'}]},
 
 {id:'afls',ad:'AFLS',alt:'Funksional həyat bacarıqlarının qiymətləndirilməsi',qrup:'aba',tip:'Qiymətləndirmə',
  yas:'Uşaqdan böyüklərə qədər',kim:'ABA mütəxəssisi, müəllim, valideyn',muddet:'Seçilmiş modullara görə dəyişir',
@@ -163,7 +172,7 @@ const TESTLER=[
  terkib:['Altı modul: əsas həyat bacarıqları, ev bacarıqları, cəmiyyətdə iştirak, məktəb bacarıqları, peşə bacarıqları, müstəqil yaşayış','Hər modul bacarıq siyahısı və qiymətləndirmə cədvəlindən ibarətdir'],
  netice:['Bacarıqlar üzrə qiymət cədvəli və hədəf siyahısı'],
  mehdud:'Norm əsaslı test deyil, standart bal vermir. Hədəflərin seçimi mütəxəssisin klinik qərarına bağlıdır.',
- linkler:[{t:'ABA platformasını aç',u:U.aba}]},
+ linkler:[{t:'Testi aç',u:U.aba+'tools/afls.html'}]},
 
 {id:'fba',ad:'FBA',alt:'Funksional davranış qiymətləndirməsi',qrup:'aba',tip:'Qiymətləndirmə üsulu',
  yas:'Bütün yaşlar',kim:'Davranış analitiki, psixoloq',muddet:'Bir neçə gün və ya həftə',
@@ -172,7 +181,7 @@ const TESTLER=[
  terkib:['Dolayı üsullar: valideyn və müəllimlə müsahibə, sorğu vərəqləri','Birbaşa müşahidə: A-B-C qeydləri (nə oldu, uşaq nə etdi, sonra nə baş verdi)','Lazım olduqda nəzarət olunan funksional analiz'],
  netice:['Davranışın funksiyası ehtimalı: diqqət almaq, tapşırıqdan qaçmaq, istədiyini əldə etmək və ya avtomatik (sensor) qazanc','Nəticəyə görə davranış dəstək planı hazırlanır'],
  mehdud:'FBA hazır test deyil, proses və üsullar toplusudur. Düzgün aparılması üçün təlim keçmiş mütəxəssis və kifayət qədər müşahidə vaxtı lazımdır.',
- linkler:[{t:'ABA platformasını aç',u:U.aba}]},
+ linkler:[{t:'Qiymətləndirməni aç',u:U.aba+'tools/fba.html'}]},
 
 {id:'peak',ad:'PEAK',alt:'Qabaqcıl biliyin ortaya çıxmasına dəstək proqramı',qrup:'aba',tip:'Qiymətləndirmə və proqram',
  yas:'Uşaqlardan böyüklərə qədər',kim:'ABA mütəxəssisi',muddet:'Modula görə dəyişir',
@@ -181,7 +190,7 @@ const TESTLER=[
  terkib:['Dörd modul: birbaşa təlim, ümumiləşdirmə, ekvivalentlik, transformasiya','Hər modulda bacarıqlar sırası və qiymətləndirmə'],
  netice:['Modullar üzrə bal və növbəti hədəflərin siyahısı'],
  mehdud:'Alətin açılışı bəzi mənbələrdə fərqli yazılır, rəsmi ad Promoting the Emergence of Advanced Knowledge-dır. Klinik təcrübədə VB-MAPP və ABLLS-R qədər geniş yayılmayıb.',
- linkler:[{t:'ABA platformasını aç',u:U.aba}]},
+ linkler:[{t:'Testi aç',u:U.aba+'tools/peak.html'}]},
 
 /* ---------- Emosional ---------- */
 {id:'scared',ad:'SCARED',alt:'Uşaqlarda narahatlıqla bağlı emosional pozuntuların skrininqi',qrup:'emosional',tip:'Anket',
@@ -218,7 +227,7 @@ const TESTLER=[
  terkib:['9 maddə, hər biri depressiyanın bir əlamətinə uyğundur: əhval, maraq itkisi, yuxu, yorğunluq, iştah, özünə dəyər, diqqət, hərəkət, ölüm və ya özünə zərər fikirləri','Hər maddə 0–3 balla qiymətləndirilir'],
  netice:['Ümumi bal 0–27','5–9: yüngül, 10–14: orta, 15–19: orta-ağır, 20–27: ağır','9-cu maddə (özünə zərər fikirləri) sıfırdan fərqlidirsə ayrıca klinik qiymətləndirmə lazımdır'],
  mehdud:'Skrininq alətidir, diaqnoz qoymur. Cavablar şüurlu şəkildə yüngülləşdirilə və ya şişirdilə bilər.',
- linkler:[{t:'Anket platformasını aç',u:U.ai}]},
+ linkler:[{t:'Anketi aç',u:U.ai+'/questionnaire/phq9'}]},
 
 {id:'bdi-ii',ad:'BDI-II',alt:'Bek depressiya siyahısı, ikinci nəşr',qrup:'emosional',tip:'Anket',
  yas:'13 yaş və yuxarı',kim:'Özünü qiymətləndirmə, psixoloq şərh edir',muddet:'5–10 dəqiqə',
@@ -227,7 +236,7 @@ const TESTLER=[
  terkib:['21 maddə, hər biri 0–3 şkalası ilə','Emosional, koqnitiv və fiziki əlamətlər: kədər, ümidsizlik, günah hissi, yuxu, iştah, enerji və s.'],
  netice:['Ümumi bal 0–63','0–13: minimal, 14–19: yüngül, 20–28: orta, 29–63: ağır'],
  mehdud:'Skrininq və şiddət ölçüsüdür, diaqnoz qoymur. Özünə zərər fikirlərini soruşan maddə ayrıca diqqət tələb edir. Orijinal testin müəllif hüququ var.',
- linkler:[{t:'Anket platformasını aç',u:U.ai}]},
+ linkler:[{t:'Anketi aç',u:U.ai+'/questionnaire/bdi2'}]},
 
 {id:'sds',ad:'SDS',alt:'Zunq özünü qiymətləndirmə depressiya şkalası',qrup:'emosional',tip:'Anket',
  yas:'Böyüklər',kim:'Özünü qiymətləndirmə, mütəxəssis şərh edir',muddet:'5–10 dəqiqə',
@@ -236,7 +245,7 @@ const TESTLER=[
  terkib:['20 maddə, dörd variantlı cavab (heç vaxt, bəzən, tez-tez, həmişə)','Maddələrin yarısı müsbət, yarısı mənfi formulə olunub'],
  netice:['Xam bal 20–80, ümumiyyətlə 80-ə bölünüb indeks kimi göstərilir','Adətən indeks 50-dən aşağı normal, 50–59 yüngül, 60–69 orta, 70 və yuxarı ağır depressiya kimi şərh olunur'],
  mehdud:'Skrininq alətidir, diaqnoz qoymur. Kəsmə həddi mənbələrə görə fərqlənə bilər, ona görə klinik qərar ayrıca verilir.',
- linkler:[{t:'Anket platformasını aç',u:U.ai}]},
+ linkler:[{t:'Anketi aç',u:U.ai+'/questionnaire/sds'}]},
 
 {id:'gad-7',ad:'GAD-7',alt:'Ümumi narahatlıq pozuntusu şkalası',qrup:'emosional',tip:'Anket',
  yas:'Yeniyetmə və böyüklər',kim:'Özünü qiymətləndirmə, mütəxəssis şərh edir',muddet:'2 dəqiqə',
@@ -245,7 +254,7 @@ const TESTLER=[
  terkib:['7 maddə: əsəbilik, nəzarətsiz narahatlıq, istirahət edə bilməmə, qorxu hissi və s.','Hər maddə 0–3 balla qiymətləndirilir'],
  netice:['Ümumi bal 0–21','5–9: yüngül, 10–14: orta, 15–21: ağır','10 və yuxarı bal əlavə klinik qiymətləndirməyə əsas verir'],
  mehdud:'Skrininq alətidir, narahatlığın səbəbini və ya növünü göstərmir.',
- linkler:[{t:'Anket platformasını aç',u:U.ai}]},
+ linkler:[{t:'Anketi aç',u:U.ai+'/questionnaire/gad7'}]},
 
 {id:'dass-21',ad:'DASS-21',alt:'Depressiya, narahatlıq və stress şkalası',qrup:'emosional',tip:'Anket',
  yas:'Yeniyetmə və böyüklər',kim:'Özünü qiymətləndirmə, mütəxəssis şərh edir',muddet:'5–10 dəqiqə',
@@ -254,7 +263,7 @@ const TESTLER=[
  terkib:['21 maddə, hər şkala üçün 7 maddə','Hər maddə 0–3 balla qiymətləndirilir'],
  netice:['Hər şkalanın cəmi 2-yə vurulur','Hər şkala üçün normal, yüngül, orta, ağır və çox ağır dərəcələr müəyyənləşir'],
  mehdud:'Skrininq alətidir. Cəmləmə qaydasında 2-yə vurmaq lazımdır, bunu unutmaq nəticəni yarıya endirir.',
- linkler:[{t:'Anket platformasını aç',u:U.ai}]},
+ linkler:[{t:'Anketi aç',u:U.ai+'/questionnaire/dass21'}]},
 
 {id:'y-bocs',ad:'Y-BOCS',alt:'Yeyl-Braun obsessiv-kompulsiv şkalası',qrup:'emosional',tip:'Klinik şkala',
  yas:'Uşaq, yeniyetmə və böyüklər (uşaqlar üçün CY-BOCS versiyası var)',kim:'Klinik müsahibə ilə mütəxəssis',muddet:'20–40 dəqiqə',
@@ -263,7 +272,7 @@ const TESTLER=[
  terkib:['Simptomlar siyahısı','10 maddəlik şiddət şkalası: 5 maddə obsesiyalar, 5 maddə kompulsiyalar','Hər maddə 0–4: vaxt, müdaxilə, sıxıntı, müqavimət və nəzarət'],
  netice:['Ümumi bal 0–40','0–7: subklinik, 8–15: yüngül, 16–23: orta, 24–31: ağır, 32–40: çox ağır'],
  mehdud:'Əsli klinik müsahibə şkalasıdır. Özünü qiymətləndirmə variantı müsahibənin yerini tutmur. Diaqnoz üçün ayrıca klinik qiymətləndirmə lazımdır.',
- linkler:[{t:'Anket platformasını aç',u:U.ai}]},
+ linkler:[{t:'Anketi aç',u:U.ai+'/questionnaire/ocd'}]},
 
 {id:'isi',ad:'ISI',alt:'Yuxusuzluğun şiddət indeksi',qrup:'emosional',tip:'Anket',
  yas:'Böyüklər və yeniyetmələr',kim:'Özünü qiymətləndirmə, mütəxəssis şərh edir',muddet:'2–3 dəqiqə',
@@ -272,7 +281,7 @@ const TESTLER=[
  terkib:['7 maddə: yuxuya getmə, yuxunu saxlama, erkən oyanma, razılıq, gündəlik fəaliyyətə təsiri, narahatlıq','Hər maddə 0–4 şkalası ilə'],
  netice:['Ümumi bal 0–28','0–7: yuxusuzluq yoxdur, 8–14: eşik həddindən aşağı, 15–21: orta, 22–28: ağır'],
  mehdud:'Skrininq və şiddət ölçüsüdür. Yuxu pozuntusunun səbəbini (tibbi, psixoloji, mühit) göstərmir.',
- linkler:[{t:'Anket platformasını aç',u:U.ai}]},
+ linkler:[{t:'Anketi aç',u:U.ai+'/questionnaire/isi'}]},
 
 {id:'pss-10',ad:'PSS-10',alt:'Qavranılan stress şkalası',qrup:'emosional',tip:'Anket',
  yas:'Yeniyetmə və böyüklər',kim:'Özünü qiymətləndirmə, mütəxəssis şərh edir',muddet:'3–5 dəqiqə',
@@ -281,7 +290,7 @@ const TESTLER=[
  terkib:['10 maddə, hər biri 0–4 şkalası ilə','Bəzi maddələr tərs hesablanır'],
  netice:['Ümumi bal 0–40, yüksək bal daha çox qavranılan stress deməkdir','Rəsmi klinik kəsmə həddi yoxdur, adətən 0–13 aşağı, 14–26 orta, 27–40 yüksək stress kimi şərh olunur'],
  mehdud:'Diaqnostik alət deyil və kəsmə həddləri şərti hesab olunur. Nəticə qruplar və zaman üzrə müqayisə üçün daha faydalıdır.',
- linkler:[{t:'Anket platformasını aç',u:U.ai}]},
+ linkler:[{t:'Anketi aç',u:U.ai+'/questionnaire/pss10'}]},
 
 {id:'scl-90',ad:'SCL-90',alt:'Simptomlar siyahısı, 90 maddə',qrup:'emosional',tip:'Anket',
  yas:'Yeniyetmə və böyüklər',kim:'Özünü qiymətləndirmə, psixoloq şərh edir',muddet:'12–20 dəqiqə',
@@ -290,7 +299,7 @@ const TESTLER=[
  terkib:['90 maddə, hər biri 0–4 şkalası ilə','Doqquz sahə: somatizasiya, obsessiv-kompulsiv, şəxsiyyətlərarası həssaslıq, depressiya, narahatlıq, düşmənçilik, fobik narahatlıq, paranoid düşüncə, psixotizm'],
  netice:['Hər sahə üzrə orta bal','Ümumi indekslər: GSI (ümumi simptom şiddəti), PST (simptom sayı), PSDI (simptom şiddət indeksi)'],
  mehdud:'Skrininq və simptom profili alətidir, diaqnoz qoymur. Maddə sayının çoxluğu yorğunluq yarada bilər.',
- linkler:[{t:'Anket platformasını aç',u:U.ai}]},
+ linkler:[{t:'Anketi aç',u:U.ai+'/questionnaire/scl90'}]},
 
 /* ---------- Karyera ---------- */
 {id:'ixtisas',ad:'İxtisas seçimi testi',alt:'Maraqlar, qabiliyyət və dəyərlər üzrə test',qrup:'karyera',tip:'Test',
@@ -352,6 +361,58 @@ const KURSLAR=[
  terkib:['7–9 yaş üçün 3 səviyyə üzrə 24 dərs','10–12 yaş üçün 10 qrammatika dərsindən ibarət irəli səviyyə','33 hərfli rus əlifbası, hər hərf üçün 5 söz','Hər dərs üçün test və qiymət izləmə','Yaddaş oyunu və sürətli viktorina','Yekun qiymətləndirmə hesabatı (HTML kimi yüklənir)','Azərbaycan və rus interfeysi, admin, müəllim və şagird girişi'],
  qeyd:'',
  linkler:[{t:'Platformanı aç',u:'https://samir210-az.github.io/an-rus-dili-platform/'}]}
+];
+
+
+const PLATFORMLAR=[
+{id:'merkez-sayti',ad:'AN Mərkəzinin saytı',alt:'Mərkəz haqqında məlumat, testlər və qeydiyyat',tip:'Sayt',
+ hedef:'Valideynlər və yeni müraciət edənlər',
+ ne:'Mərkəzin xidmətlərini, necə başlamaq olduğunu, peşəkar testlərini və əlaqə məlumatlarını bir yerdə göstərən rəsmi sayt.',
+ terkib:['İcma əsaslı inteqrasiya və uzaqdan dəstək haqqında','3 addımda başlanğıc: pulsuz ilkin məsləhət, peşəkar qiymətləndirmə, fərdi plan','Peşəkar testlər bölməsi','Qeydiyyat və müraciət forması'],
+ qeyd:'Menyuda iki ünvan var: yeni və əvvəlki versiya.',
+ linkler:[{t:'Yeni versiya',u:'https://samir210-az.github.io/an-merkezi/'},{t:'Əvvəlki versiya',u:'https://anpsixoloji.vercel.app'}]},
+
+{id:'an-paketler',ad:'AN Paketlər',alt:'Mərkəzin 4 xüsusi proqramının təqdimat səhifəsi',tip:'Təqdimat səhifəsi',
+ hedef:'Valideynlər',
+ ne:'Mərkəzin 4 proqramını, işin 4 addımını və əlaqə üsullarını təqdim edən səhifə. Azərbaycan, rus və ingilis dillərindədir.',
+ terkib:['4 xüsusi proqram','Mərkəzin fərqləri','İşin 4 addımı','WhatsApp və Instagram vasitəsilə əlaqə'],
+ qeyd:'',
+ linkler:[{t:'Səhifəni aç',u:'https://samir210-az.github.io/an-paketler/'}]},
+
+{id:'an-demo',ad:'AN Demo',alt:'Mərkəzin xidmət modellərini göstərən təqdimat saytı',tip:'Təqdimat səhifəsi',
+ hedef:'Tərəfdaşlar və dəstəkçilər',
+ ne:'Xüsusi qayğıya ehtiyacı olan uşaqlar üçün icma əsaslı inteqrasiya və uzaqdan dəstək modellərini, milli konteksti və iqtisadi səmərəni izah edir.',
+ terkib:['Azərbaycanda vəziyyət','İki xidmət modeli','ROI hesablayıcısı','Əlaqə'],
+ qeyd:'',
+ linkler:[{t:'Demonu aç',u:'https://samir210-az.github.io/demo/'}]},
+
+{id:'an-agent',ad:'AN Psixoloji Agent',alt:'Uşaq psixologiyası üzrə süni intellekt köməkçisi',tip:'AI köməkçi',
+ hedef:'Valideynlər və mütəxəssislər',
+ ne:'Uşaq psixologiyası sualları üçün söhbət formatında işləyən süni intellekt agenti.',
+ terkib:['Yazılı söhbət','Səsli daxiletmə','Söhbət tarixçəsini silmək imkanı'],
+ qeyd:'Cavablar məlumat xarakterlidir, mütəxəssis müayinəsini əvəz etmir.',
+ linkler:[{t:'Agenti aç',u:'https://samir210-az.github.io/-agent/?v=2/'}]},
+
+{id:'terapiya-jurnali',ad:'Terapiya Jurnalı',alt:'Seans və həftəlik nəticə izləmə sistemi',tip:'Mərkəz sistemi',
+ hedef:'Mərkəzin əməkdaşları',
+ ne:'Seansların qeydiyyatı, həftəlik irəliləyişin izlənməsi, mütəxəssis və uşaq idarəetməsi və süni intellektlə hazırlanan yönləndirmə arayışları.',
+ terkib:['Seans qeydiyyatı və planlaşdırma','Həftəlik irəliləyiş izləmə','Mütəxəssis və uşaq idarəetməsi','Klinik qeydlər'],
+ qeyd:'Giriş tələb edir, yalnız mərkəz əməkdaşları üçündür.',
+ linkler:[{t:'Sistemi aç',u:'https://an-seans.vercel.app'}]},
+
+{id:'klinika-sistemi',ad:'Klinika Sistemi',alt:'Pasiyent, seans, ödəniş və hesabat idarəetməsi',tip:'Mərkəz sistemi',
+ hedef:'Mərkəzin rəhbərliyi və əməkdaşları',
+ ne:'Mərkəzin gündəlik işini idarə edir: pasiyentlər, seanslar, əməkdaşlar, ödənişlər, xərclər və hesabatlar.',
+ terkib:['Pasiyentlər və seanslar','Əməkdaşlar','Ödənişlər və xərclər','Hesabatlar və qeydlər','Admin və əməkdaş rolları'],
+ qeyd:'Giriş tələb edir, yalnız mərkəz əməkdaşları üçündür.',
+ linkler:[{t:'Sistemi aç',u:'https://samir210-az.github.io/klinika-sistemi/'}]},
+
+{id:'klinika-demo',ad:'Klinika İdarəetmə Sistemi (demo)',alt:'Digər klinika və mərkəzlər üçün nümunə versiya',tip:'Demo',
+ hedef:'Klinika və mərkəz sahibləri',
+ ne:'Klinika Sistemi ilə eyni imkanları göstərən demo versiya. Bütün məlumatlar nümunədir.',
+ terkib:['Pasiyentlər və seanslar','Əməkdaşlar','Ödənişlər və xərclər','Hesabatlar','Admin və əməkdaş girişi'],
+ qeyd:'Real pasiyent məlumatı yoxdur.',
+ linkler:[{t:'Demonu aç',u:'https://samir210-az.github.io/klinika-idareetme-demo/'}]}
 ];
 
 const KOMEKCI=[

@@ -1,6 +1,6 @@
 (function(){
 const $=id=>document.getElementById(id);
-const BOL={testler:{ad:'Testlər',data:TESTLER,yol:'t'},kurslar:{ad:'Kurslar',data:KURSLAR,yol:'k'},aletler:{ad:'Alətlər',data:KOMEKCI,yol:'a'}};
+const BOL={testler:{ad:'Testlər',data:TESTLER,yol:'t'},kurslar:{ad:'Kurslar',data:KURSLAR,yol:'k'},aletler:{ad:'Alətlər',data:KOMEKCI,yol:'a'},platformalar:{ad:'Platformalar',data:PLATFORMLAR,yol:'p'}};
 const state={bolme:'testler',qrup:'hamisi',q:''};
 const qad=id=>(QRUPLAR.find(x=>x.id===id)||{}).ad||'';
 
