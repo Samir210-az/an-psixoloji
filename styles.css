@@ -83,3 +83,14 @@ a{color:var(--accent)}
   .chip{white-space:nowrap;flex:none}
   .row .tag{display:none}
 }
+
+.card{position:relative;transition:transform .18s,box-shadow .18s,border-color .18s}
+.open{color:inherit;text-decoration:none}
+.card .open::after,.row .open::after{content:"";position:absolute;inset:0;border-radius:inherit}
+.card h3 .open::before{content:"↗";float:right;font-size:15px;color:var(--gold);margin-left:8px}
+.more,.info{position:relative;z-index:1;font-size:13px;font-weight:600;color:var(--accent);text-decoration:none}
+.more{align-self:flex-start;border-bottom:1px dashed var(--accent)}
+.row{position:relative}
+.info{padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:#fff;white-space:nowrap}
+.info:hover{border-color:var(--accent)}
+.row:hover .open{color:var(--accent2)}
