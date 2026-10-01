@@ -344,7 +344,14 @@ const KURSLAR=[
  ne:'Məktəbə zehni, emosional və sosial hazırlığı birlikdə təmin edən proqram.',
  terkib:['8 həftə','6 fənn, o cümlədən 3 dil','Gündəlik davranış və bilik qiymətləndirməsi (1–5 şkalası)','Əlifba və rəqəm bölmələri','Valideyn üçün hesabat'],
  qeyd:'',
- linkler:[{t:'Proqramı aç',u:'https://samir210-az.github.io/mektebe-hazirlik/'}]}
+ linkler:[{t:'Proqramı aç',u:'https://samir210-az.github.io/mektebe-hazirlik/'}]},
+
+{id:'rus-dili',ad:'AN Rus Dili Hazırlığı',alt:'7–12 yaş üçün rus dili tədris platforması',tip:'Uşaq proqramı',
+ hedef:'7–12 yaşlı uşaqlar, müəllimlər və valideynlər',
+ ne:'Uşaqlara rus dilini addım-addım, Azərbaycan dilində izahla öyrədən platforma: əlifbadan qrammatikaya qədər.',
+ terkib:['7–9 yaş üçün 3 səviyyə üzrə 24 dərs','10–12 yaş üçün 10 qrammatika dərsindən ibarət irəli səviyyə','33 hərfli rus əlifbası, hər hərf üçün 5 söz','Hər dərs üçün test və qiymət izləmə','Yaddaş oyunu və sürətli viktorina','Yekun qiymətləndirmə hesabatı (HTML kimi yüklənir)','Azərbaycan və rus interfeysi, admin, müəllim və şagird girişi'],
+ qeyd:'',
+ linkler:[{t:'Platformanı aç',u:'https://samir210-az.github.io/an-rus-dili-platform/'}]}
 ];
 
 const KOMEKCI=[
